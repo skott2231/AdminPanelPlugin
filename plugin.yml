@@ -1,0 +1,17 @@
+name: AdminPanel
+version: 2.0-Design
+main: com.yourname.adminpanel.AdminPanelPlugin
+api-version: '1.20'
+commands:
+  staffmode:
+    description: Toggles your Staff Mode on or off.
+    permission: adminpanel.use
+    permission-message: '§8[§c§l!§8] §cYou lack the required permissions for this command!'
+  adminpanel:
+    description: Opens the advanced Admin Panel GUI.
+    permission: adminpanel.use
+    permission-message: '§8[§c§l!§8] §cYou lack the required permissions for this command!'
+permissions:
+  adminpanel.use:
+    description: Allows full access to the admin panel and staff mode.
+    default: op
